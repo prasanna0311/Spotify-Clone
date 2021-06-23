@@ -1,0 +1,167 @@
+body {
+  background-color: rgb(18, 18, 18);
+}
+
+.static-vertical {
+  background: black;
+  color: white;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+}
+
+.logo-text {
+  height: 40px;
+  max-width: 131px;
+  width: 100%;
+}
+
+#mainDiv {
+  background-color: rgb(18, 18, 18);
+  overscroll-behavior-y: contain;
+}
+.vertical-navigation {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.vertical-navigation + li {
+  padding: 0px;
+  margin: 0px 10px;
+}
+
+.nav-items {
+  padding: 0 16px;
+  margin-top: 20px;
+
+  border-radius: 5px;
+
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 16px;
+  text-transform: none;
+  cursor: pointer;
+  place-content: center;
+}
+
+.nav-items:hover {
+  color: gray;
+}
+
+.active {
+  background-color: #282828;
+}
+
+.playlist-logo-plus {
+  background: grey;
+  width: 24px;
+  height: 24px;
+}
+
+.playlist-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.install-app {
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 10px;
+}
+
+.arrow-button {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 32px;
+  justify-content: center;
+  position: relative;
+  width: 32px;
+}
+
+input:focus {
+  border: none !important;
+  background-color: white;
+}
+
+#button-upgrade {
+  background: black;
+  color: white;
+  border-color: white;
+  border: 1x solid white;
+  border-radius: 30px;
+}
+
+.upgrade-style {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.76px;
+  line-height: 18px;
+  padding: 8px 34px;
+  text-align: center;
+}
+
+.dropdown-menu li:hover {
+  background-color: none;
+}
+
+#music-div {
+  overflow-y: auto;
+}
+
+.category-heading:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.card {
+  color: white;
+  align-items: center;
+
+  height: 260px;
+
+  width: 183px;
+  background-color: #181818;
+}
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+#outerDiv {
+  position: fixed;
+  left: 314px;
+  z-index: 10009;
+  height: 60px;
+}
+
+#play-button {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+}
+
+#play-button:hover {
+  width: 80px;
+  height: 80px;
+}
+
+table {
+  margin-left: 85px;
+  width: 70% !important;
+}
+
+#table-heading:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#user-name {
+  text-transform: capitalize;
+}
